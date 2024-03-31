@@ -1,5 +1,9 @@
 .App {
   text-align: center;
+  /* background-color: black; */
+  background-image: url("./images/bg-image.jpg");
+  background-size:cover;
+  min-height: 100vh;
 }
 
 .App-logo {
@@ -35,4 +39,58 @@
   to {
     transform: rotate(360deg);
   }
+}
+
+.container {
+  text-align: center;
+  /* margin-top: 50px; */
+  /* border: 3px solid red; */
+  /* padding: 20px; */
+  width: 65%;
+  margin-left: 15%;
+  /* margin: auto; */
+  box-shadow: 0 0 10px rgba(115, 115, 168, 0.9);
+  backdrop-filter: blur(7px);
+  position: absolute;
+}
+
+button {
+  padding: 0px 10px;
+  font-size: 16px;
+  cursor: pointer;
+  height: 30px;
+  border-radius: 10%;
+  
+}
+
+button:hover{
+  box-shadow: 0 0 10px rgba(227, 227, 255, 0.5);
+}
+
+#output {
+  margin-top: 20px;
+  white-space: pre;
+  font-family: monospace;
+}
+
+table {
+  border-collapse: collapse;
+  margin-top: 13px;
+  margin-left: 41%;
+}
+table td {
+  border: 1px solid #38598b;
+  box-shadow: 0 0 10px rgba(94, 94, 219, 0.5);
+  width: 50px;
+  height: 50px;
+  text-align: center;
+  vertical-align: middle;
+}
+
+.inputTag{
+  height: 25px;
+  width: 150px;
+  /* box-shadow: 0 0 10px rgba(177, 177, 255, 0.3); */
+  box-shadow: rgba(0, 0, 0, 0.3) 0px 19px 38px, rgba(57, 55, 63, 0.22) 0px 15px 12px;
+  text-align: center;
 }
